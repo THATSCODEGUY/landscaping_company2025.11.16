@@ -1,0 +1,17 @@
+{
+  "query": "SELECT id, openId, name, email, role FROM users;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2ktSdACxWZCFEvo.66847a5e730f --database RfwVwgvmNLmD5s6m6PwwUb --execute SELECT id, openId, name, email, role FROM users;",
+  "rows": [
+    {
+      "id": "1",
+      "openId": "YtkJyCTfoWJb4VBfcZgKoo",
+      "name": "小男人 加拿大",
+      "email": "pscchinagz@gmail.com",
+      "role": "admin"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\topenId\tname\temail\trole\n1\tYtkJyCTfoWJb4VBfcZgKoo\t小男人 加拿大\tpscchinagz@gmail.com\tadmin\n",
+  "stderr": "",
+  "execution_time_ms": 388
+}
